@@ -26,7 +26,9 @@
       </fieldset>
     </form>
   </div>
-  <div class="message">{{ .message }}</div>
+  {{ if .message }}
+    <div class="message">{{ .message }}</div>
+  {{ end }}
 </body>
 
 </html>
@@ -68,6 +70,8 @@ body {
   padding: 25px;
   font-size: 1.2em;
   color: black;
+  background: #F9F9F9;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact input[type="text"],
