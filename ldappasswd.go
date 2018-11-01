@@ -3,16 +3,15 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"os"
 
 	"github.com/gin-gonic/gin"
 	ldap "gopkg.in/ldap.v2"
 )
 
 var (
-	// LDAP_SERVER = os.Getenv("LDAP_SERVER")
-	// LDAP_PORT   = os.Getenv("LDAP_PORT")
-	LDAP_SERVER = "10.18.88.192"
-	LDAP_PORT   = 389
+	LDAP_SERVER = os.Getenv("LDAP_SERVER")
+	LDAP_PORT   = os.Getenv("LDAP_PORT")
 )
 
 type Account struct {
