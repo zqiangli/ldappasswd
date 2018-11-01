@@ -12,4 +12,4 @@ $ docker run -itd-e LDAP_SERVER=$your_ldap_server -e LDAP_PORT=$your_ldap_port -
 
 ![](https://raw.githubusercontent.com/cherryleo/ldappasswd/master/screenshot/1.png)
 
-![](https://raw.githubusercontent.com/cherryleo/ldappasswd/master/screenshot/4.png)
+![](https://raw.githubusercontent.com/cherryleo/ldappasswd/master/screenshot/2.png)
